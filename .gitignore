@@ -1,0 +1,42 @@
+# Archivos y directorios específicos de Django
+*.pyc
+__pycache__
+db.sqlite3
+*.log
+*.pot
+*.pyo
+
+# Directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorio de entorno virtual
+venv/
+env/
+
+# Configuración de IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Archivo local de configuración de Django 
+settings/local.py
+
+# Archivos generados por gestionadores de dependencias
+pip-log.txt
+requirements.txt
+
+# Registros y archivos temporales
+*.log
+*.swp
+
+# Si usas Docker
+docker-compose.yml
+.dockerignore
+
+# Archivos de cache de paquetes 
+node_modules/
+
+# Archivos de medios generados (si los almacenas localmente)
+media/
